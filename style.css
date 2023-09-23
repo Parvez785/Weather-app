@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #4f4b6b;
+  font-family: 'Raleway', sans-serif;
+}
+
+.search-location {
+  background-color: #1E213A;
+
+}
+p{
+  color: #E7E7EB;
+}
+
+.p-eq {
+  padding: 20px 0px;
+}
+
+input {
+  background: #1E213A;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+button#searc-weather {
+  padding: 9px 30px;
+}
+#bg-dark {
+  background: #100E1D;
+}
+.text-color{
+ color: #E7E7EB;
+}
+h1#temp{
+  color: #E7E7EB;
+font-size:65px;
+font-style: normal;
+font-weight: 500;
+}
+.card{
+  background: #1E213A;
+}
+sub{
+  font-size:28px;
+}
+h1{
+  font-size: 50px;
+}
+.Highlights {
+    padding-top: 75px;
+}
+@media screen and (max-width:600px){
+  button#searc-weather {
+    padding: 9px 20px;
+}
+  .Highlights.text-center.text-white{
+    padding:30px 0px 40px 0px;
+  }
+.card.py-3{
+  margin:10px 11px;
+}
+}
+
+@media screen and (min-width:767px) and (max-width:1180px){
+  .Highlights {
+    padding-top: 0px;
+}
+  h1.fw-bolder {
+    padding-top: 20px;
+}
+  div#bg-dark {
+    padding: 30px 0px;
+}
+}
